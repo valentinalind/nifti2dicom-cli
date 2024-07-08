@@ -19,13 +19,13 @@ So that you don't have to hack at getting nifti2dicom-cli to work on your local 
 docker pull nhnnufun/nifti2dicom-cli
 ```
 
-and run 
+and run:
 
 ```
 docker run -v /path/on/system/to/nifti/files/to/convert:/opt/nifti2dicom -it nhnnufun/nifti2dicom-cli
 ```
 
-and use Nifti2Dicom as instructed once the Docker container is running: 
+Use Nifti2Dicom as instructed once the Docker container is running: 
 
 ```
 Nifti2Dicom -h
