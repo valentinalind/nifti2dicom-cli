@@ -33,7 +33,7 @@ Nifti2Dicom -h
 
 Follow [**these instructions**](https://www.docker.com/get-started/) to install and use Docker.
 
-To use FAT1 Toolbox, which includes our modified Nifti2Dicom-cli tool, go to either our [**Github repo**](https://github.com/nhnnufun/fat1-toolbox) or [**Docker repo**](https://hub.docker.com/layers/nhnnufun/fat1_toolbox). 
+To use FAT1 Toolbox, which includes our modified Nifti2Dicom CL tool, go to either our [**Github repo**](https://github.com/nhnnufun/fat1-toolbox) or [**Docker repo**](https://hub.docker.com/layers/nhnnufun/fat1_toolbox). 
 
 
 <img src="https://github.com/nhnnufun/nifti2dicom-cli/blob/main/nifti2dicom-cli/data/images/docker-logo-blue.png" width=40%>
