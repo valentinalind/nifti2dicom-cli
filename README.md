@@ -12,7 +12,7 @@ Dependencies for nifti2dicom-cli are: :
 * GCC/G++ 8.0
 * TCLAP v1.2+
   
-## :whale: We made a Docker container for nifti2dicom-cli
+## whale2: nifti2dicom-cli Docker container
 So that you don't have to hack at getting nifti2dicom-cli to work on your local system, you can use it out of the box by pulling our nifti2dicom-cli Docker image:
 
 ```
