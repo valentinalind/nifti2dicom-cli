@@ -15,17 +15,20 @@ Dependencies for nifti2dicom-cli are: :
 ## :whale: We made a Docker container for nifti2dicom-cli
 So that you don't have to hack at getting nifti2dicom-cli to work on your local system, you can use it out of the box by pulling our nifti2dicom-cli Docker image:
 
-```docker pull nhnnufun/nifti2dicom-cli
+```
+docker pull nhnnufun/nifti2dicom-cli
 ```
 
 and run 
 
-```docker run -v /path/on/system/to/nifti/files/to/convert:/opt/nifti2dicom -it nhnnufun/nifti2dicom-cli
+```
+docker run -v /path/on/system/to/nifti/files/to/convert:/opt/nifti2dicom -it nhnnufun/nifti2dicom-cli
 ```
 
 and use Nifti2Dicom as instructed once the Docker container is running: 
 
-```Nifti2Dicom -h
+```
+Nifti2Dicom -h
 ```
 
 Follow [**these instructions**](https://www.docker.com/get-started/) to install and use Docker.
