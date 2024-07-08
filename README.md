@@ -15,6 +15,7 @@ Dependencies for nifti2dicom-cli are: :
 <div>
     <img src="(https://images.app.goo.gl/Cjv51auupM4JMes68)" />
 </div>
+
 ## nifti2dicom-cli Docker container
 So that you don't have to hack at getting nifti2dicom-cli to work on your local system, you can use it out of the box by pulling our nifti2dicom-cli Docker image:
 
