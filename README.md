@@ -2,7 +2,7 @@ nifti2dicom-cli
 =================
 Modified version of biolab-unige/nifti2dicom for CLI use optimised for NIFTI conversion to Brainlab-compatible DICOM
 
-The [**original Nifti2Dicom**](https://github.com/biolab-unige/nifti2dicom) is a conversion tool that converts 3D NIfTI files to DICOM. Unlike other conversion tools, it can import a DICOM file that is used to import the patient and study DICOM tags, and allows you to edit the accession number and other DICOM tags, in order to create a valid DICOM that can be imported in a PACS. However, latest versions along with compatible dependencies are incompatible with current Brainlab PACS software.
+The [**original Nifti2Dicom**](https://github.com/biolab-unige/nifti2dicom) is a conversion tool that converts 3D NIfTI files to DICOM. Unlike other conversion tools, it can import a DICOM file that is used to import the patient and study DICOM tags, and allows you to edit the accession number and other DICOM tags, in order to create a valid DICOM that can be imported in a PACS. However, latest versions along with dependencies are incompatible with current Brainlab PACS software.
 
 We optimised version, dependency versions, and code for Nifti2Dicom CLI use to import DICOMs into [**Brainlab**](https://www.brainlab.com/) for pre-operative neurosurgical planning at NHNN (see our [**recent paper**](https://doi.org/10.1162/imag_a_00139) for an example of how processed images feature in our neurosurgical planning protocol (Goedemans et al., 2024). 
 Dependencies for nifti2dicom-cli are: :
