@@ -28,7 +28,7 @@ docker run -v /path/on/system/to/nifti/files/to/convert:/opt/nifti2dicom -it nhn
 Use Nifti2Dicom as instructed once the Docker container is running: 
 
 ```
-Nifti2Dicom -h
+nifti2dicom -h
 ```
 
 Follow [**these instructions**](https://www.docker.com/get-started/) to install and use Docker.
